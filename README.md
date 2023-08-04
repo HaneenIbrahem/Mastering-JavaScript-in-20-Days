@@ -16,4 +16,4 @@ Welcome to the 20-Day Learning JavaScript Challenge! 🚀
 1. test
 
 ## Folder Structure
-- Day 1
+- [Day 1](Day1.md)
