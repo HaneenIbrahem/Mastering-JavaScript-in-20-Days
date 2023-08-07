@@ -25,14 +25,14 @@ document.body.children: all element within the body (header + div ...)
 MDN: Mozilla Developer Network.
 
 ## Exercise 1:
-1. All the p elements.
+1. All the p elements: 
    document.getElementByTagName("p")
-2. The text "X".
+2. The text "X": 
    document.querySelector("#p1-sympol").textContent
    document.getElementById("p1-sympol").textContent
-3. The number of the squares in the board.
+3. The number of the squares in the board: /n
    document.querySelectorAll(".square").length
-4. The text "A game you know".
+4. The text "A game you know": /n
    document.querySelector("h2").textContent
 
 Editing the DOM with JS:
