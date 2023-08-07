@@ -12,11 +12,11 @@ We can write JS in:
 _____________________________________________________________
 DOM: Document Object Model
 A simple document contain 
-- <html>
-- <head>
-- <body>
-- <header>
-- <div> ...
+- < html >
+- < head >
+- < body >
+- < header >
+- < div > ...
 
 document.title: the title of the document.
 document.body: the body element of the html.
