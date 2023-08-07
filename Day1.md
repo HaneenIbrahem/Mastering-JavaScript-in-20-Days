@@ -12,7 +12,7 @@ We can write JS in:
 _____________________________________________________________
 DOM: Document Object Model
 A simple document contain 
-- html 
+- < html > 
 - head 
 - body 
 - header 
@@ -40,13 +40,13 @@ Editing the DOM with JS:
 - append: add on the text
 
 ## Exercise 2:
-1. Change the player names
+1. Change the player names:
    document.querySelector("#p1-player").textContent = "Haneen"
    document.querySelector("#p2-player").textContent = "Hanaa"
-2. Swap the player symbols
+2. Swap the player symbols:
    document.getElementById("p1-sympol").textContent = "O"
    document.getElementById("p2-sympol").textContent = "X"
-3. Change subtitle to "A game you know and love"
+3. Change subtitle to "A game you know and love":
    document.querySelector("header h2").textContent = "A game you know and love"
    document.getElementByTagName("h2").append = "A game you know and love"
 
