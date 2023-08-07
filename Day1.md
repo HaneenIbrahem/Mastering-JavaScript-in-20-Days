@@ -19,7 +19,9 @@ A simple document contain
 - < div > ...
 
 document.title: the title of the document.
+
 document.body: the body element of the html.
+
 document.body.children: all element within the body (header + div ...)
 
 MDN: Mozilla Developer Network.
@@ -74,7 +76,7 @@ let c = 4.6;
 a *= 5;
 b *= 3;
 c *= 10;
-
+##
 **[Concatenating Strings with the Plus Equals Operator](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/concatenating-strings-with-the-plus-equals-operator)**
 **Solution:**
  ```javascript
@@ -82,7 +84,7 @@ let myStr = "This is the first sentence. ";
 myStr += "This is the second sentence.";
 
 console.log(myStr);
-
+##
 **[Use Bracket Notation to Find the Nth-to-Last Character in a String](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/use-bracket-notation-to-find-the-nth-to-last-character-in-a-string)**
 **Solution:**
  ```javascript
