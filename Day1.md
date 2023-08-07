@@ -45,12 +45,15 @@ Editing the DOM with JS:
 
 ## Exercise 2:
 1. Change the player names:
+   ```javascript
    document.querySelector("#p1-player").textContent = "Haneen"
    document.querySelector("#p2-player").textContent = "Hanaa"
 2. Swap the player symbols:
+   ```javascript
    document.getElementById("p1-sympol").textContent = "O"
    document.getElementById("p2-sympol").textContent = "X"
-3. Change subtitle to "A game you know and love":
+4. Change subtitle to "A game you know and love":
+   ```javascript
    document.querySelector("header h2").textContent = "A game you know and love"
    document.getElementByTagName("h2").append = "A game you know and love"
 
@@ -62,7 +65,7 @@ Editing the DOM with JS:
 
 **[Compound Assignment With Augmented Multiplication](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/compound-assignment-with-augmented-multiplication)**
 **Solution:** 
-
+ ```javascript
 let a = 5;
 let b = 12;
 let c = 4.6;
@@ -74,7 +77,7 @@ c *= 10;
 
 **[Concatenating Strings with the Plus Equals Operator](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/concatenating-strings-with-the-plus-equals-operator)**
 **Solution:**
-
+ ```javascript
 let myStr = "This is the first sentence. ";
 myStr += "This is the second sentence.";
 
@@ -82,7 +85,7 @@ console.log(myStr);
 
 **[Use Bracket Notation to Find the Nth-to-Last Character in a String](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/use-bracket-notation-to-find-the-nth-to-last-character-in-a-string)**
 **Solution:**
-
+ ```javascript
 // Setup
 const lastName = "Lovelace";
 
