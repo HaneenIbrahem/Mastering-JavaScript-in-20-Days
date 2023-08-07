@@ -25,9 +25,9 @@ document.body.children: all element within the body (header + div ...)
 MDN: Mozilla Developer Network.
 
 ## Exercise 1:
-1. All the p elements: 
+1. All the p elements:  
    document.getElementByTagName("p")
-2. The text "X": 
+2. The text "X":   
    document.querySelector("#p1-sympol").textContent;
    document.getElementById("p1-sympol").textContent;
 3. The number of the squares in the board: 
@@ -58,6 +58,7 @@ Editing the DOM with JS:
 
 **[Compound Assignment With Augmented Multiplication](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/compound-assignment-with-augmented-multiplication)**
 **Solution:** 
+
 let a = 5;
 let b = 12;
 let c = 4.6;
@@ -69,6 +70,7 @@ c *= 10;
 
 **[Concatenating Strings with the Plus Equals Operator](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/concatenating-strings-with-the-plus-equals-operator)**
 **Solution:**
+
 let myStr = "This is the first sentence. ";
 myStr += "This is the second sentence.";
 
@@ -76,6 +78,7 @@ console.log(myStr);
 
 **[Use Bracket Notation to Find the Nth-to-Last Character in a String](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/use-bracket-notation-to-find-the-nth-to-last-character-in-a-string)**
 **Solution:**
+
 // Setup
 const lastName = "Lovelace";
 
