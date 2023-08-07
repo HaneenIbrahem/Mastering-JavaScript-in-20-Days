@@ -28,12 +28,15 @@ MDN: Mozilla Developer Network.
 1. All the p elements:
     ```javascript  
    document.getElementByTagName("p")
-3. The text "X":   
+2. The text "X":
+    ```javascript 
    document.querySelector("#p1-sympol").textContent;
    document.getElementById("p1-sympol").textContent;
-4. The number of the squares in the board: 
+3. The number of the squares in the board: 
+     ```javascript
    document.querySelectorAll(".square").length;
-5. The text "A game you know": 
+5. The text "A game you know":
+    ```javascript
    document.querySelector("h2").textContent;
 ##
 Editing the DOM with JS:
