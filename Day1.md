@@ -28,13 +28,13 @@ MDN: Mozilla Developer Network.
 1. All the p elements: 
    document.getElementByTagName("p")
 2. The text "X": 
-   document.querySelector("#p1-sympol").textContent
-   document.getElementById("p1-sympol").textContent
-3. The number of the squares in the board: /n
-   document.querySelectorAll(".square").length
-4. The text "A game you know": /n
-   document.querySelector("h2").textContent
-
+   document.querySelector("#p1-sympol").textContent;
+   document.getElementById("p1-sympol").textContent;
+3. The number of the squares in the board: 
+   document.querySelectorAll(".square").length;
+4. The text "A game you know": 
+   document.querySelector("h2").textContent;
+##
 Editing the DOM with JS:
 - textContent: eg: document.getElementById("player1")
 - append: add on the text
