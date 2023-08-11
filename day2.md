@@ -13,7 +13,7 @@ typeof 42 = Number
 - Number
 - Undefined
 
-JS has 2 kinds of data :
+**JS has 2 kinds of data :**
 1. Primitive types (Strings, Numbers)
 2. Objects (Document)
 
@@ -28,13 +28,51 @@ JS has 2 kinds of data :
 
 ## Exercise 2: 
 
-1. Add your last name in the players listing
-
+1. Add your last name in the players listing:
    ```javascript
-   
+   document.getElementById("p1-name").append(" Ibrahem");
+   document.querySelector("#p1-name").textContent = "Haneen Ibrahem";
+   ```
 
+2. Retrive the first "T" in the page title:
+   ```javascript
+   document.title[9];
+   ```
 
+3. Answer whether the page title contains the string "JavaScript":
+   ```javascript
+   document.title.includes("JavaScript");
+   ```
 
+4. capitalize the heading "Tic Tac Toe":
+   ```javascript
+   document.querySelector("header h1").textContent.toUpperCase;
+   document.querySelector("header h1").style.textTransform = "uppercase";
+   ```
+##
+
+**Operations**
+Arithmatic operations:
+(+, -, *, /)
+
+Comparison operations:
+(>, <, >=, <=)
+
+Logical operations:
+(&&, ||, !)
+
+Strict             loosy goosy
+
+===                  ==            => equals
+
+!==                  !=            => does not equal
+
+1 === 1       => :tick:
+1 == 1        =>
+"1" === "1"   =>
+"1" == "1"    =>
+1 === "1"     =>
+1 == "1"      =>
 ##
 Editing the DOM with JS:
 - textContent: eg: document.getElementById("player1")
