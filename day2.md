@@ -63,8 +63,15 @@ Logical operations:
 (&&, ||, !)
 
 | Strict | loosy goosy | _________________ |
+| ------ | ----------- | ----------------- |
 | ===    | ==          | => equals         |
 | !==    | !=          | => does not equal |
+
+
+| Strict | Loosy Goosy | Description        |
+| ------ | ------------ | ------------------ |
+| ===    | ==           | Equals             |
+| !==    | !=           | Does not equal     |
 
 
 1 === 1       => 
