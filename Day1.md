@@ -63,7 +63,7 @@ Editing the DOM with JS:
 **querySelector with # : looking for the element not the ID**
 
 
-## Coding Examples
+## DELIEVERABLES:
 
 1. **[Compound Assignment With Augmented Multiplication](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/compound-assignment-with-augmented-multiplication)**
    
