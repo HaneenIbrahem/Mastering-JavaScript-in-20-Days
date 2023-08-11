@@ -74,61 +74,150 @@ The output:
    - let: mutable.
    - const: immutable.
 
-##
-## Exercise 2:
-1. Change the player names:
-   ```javascript
-   document.querySelector("#p1-player").textContent = "Haneen"
-   document.querySelector("#p2-player").textContent = "Hanaa"
-2. Swap the player symbols:
-   ```javascript
-   document.getElementById("p1-sympol").textContent = "O"
-   document.getElementById("p2-sympol").textContent = "X"
-4. Change subtitle to "A game you know and love":
-   ```javascript
-   document.querySelector("header h2").textContent = "A game you know and love"
-   document.getElementByTagName("h2").append = "A game you know and love"
+## Objects
+
+Collect multiple values together to descripe more complex data.
+
+**Arrays are objects.**
+
+**this:** in a method let us to reference other properties on the object.
 
 
-**querySelector with # : looking for the element not the ID**
+## Exercise 2: TODO 1 + 2 + 3
+1. TODO 1
+   ```javascript
+   const statement = document.getElementById("statement");
+    const optionButtons = document.querySelectorAll("button");
+    const explanation = document.getElementById("explanation");
+2. TODO 2
+   ```javascript
+   const fact = {
+        statement: "Arrays are like objects",
+        answer: true,
+        explanation: "Arrays are kind of object with secial proparties",
+    };
+3. TODO 3
+   ```javascript
+   statement.textContent = fact.statement;
 
 
 ## DELIEVERABLES:
 
-1. **[Compound Assignment With Augmented Multiplication](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/compound-assignment-with-augmented-multiplication)**
+1. **[Copy Array Items Using slice()](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-data-structures/copy-array-items-using-slice)**
    
 **Solution:** 
  ```javascript
-let a = 5;
-let b = 12;
-let c = 4.6;
+function forecast(arr) {
+  // Only change code below this line
+  return arr.slice(2,4);
+}
 
-// Only change code below this line
-a *= 5;
-b *= 3;
-c *= 10;
+// Only change code above this line
+console.log(forecast(['cold', 'rainy', 'warm', 'sunny', 'cool', 'thunderstorms']));
 ```
 
-2. **[Concatenating Strings with the Plus Equals Operator](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/concatenating-strings-with-the-plus-equals-operator)**
+2. **[Combine Arrays with the Spread Operator](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-data-structures/combine-arrays-with-the-spread-operator)**
    
 **Solution:**
  ```javascript
-let myStr = "This is the first sentence. ";
-myStr += "This is the second sentence.";
+function spreadOut() {
+  let fragment = ['to', 'code'];
+  let sentence = ['learning', ...fragment, 'is', 'fun']; // Change this line
+  return sentence;
+}
 
-console.log(myStr);
+console.log(spreadOut());
 ```
 
-3. **[Use Bracket Notation to Find the Nth-to-Last Character in a String](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/use-bracket-notation-to-find-the-nth-to-last-character-in-a-string)**
+3. **[Profile Lookup](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/profile-lookup)**
    
 **Solution:**
  ```javascript
 // Setup
-const lastName = "Lovelace";
+const contacts = [
+  {
+    firstName: "Akira",
+    lastName: "Laine",
+    number: "0543236543",
+    likes: ["Pizza", "Coding", "Brownie Points"],
+  },
+  {
+    firstName: "Harry",
+    lastName: "Potter",
+    number: "0994372684",
+    likes: ["Hogwarts", "Magic", "Hagrid"],
+  },
+  {
+    firstName: "Sherlock",
+    lastName: "Holmes",
+    number: "0487345643",
+    likes: ["Intriguing Cases", "Violin"],
+  },
+  {
+    firstName: "Kristian",
+    lastName: "Vos",
+    number: "unknown",
+    likes: ["JavaScript", "Gaming", "Foxes"],
+  },
+];
 
-// Only change code below this line
-const secondToLastLetterOfLastName = lastName[lastName.length - 2]; // Change this line
+function lookUpProfile(name, prop) {
+  // Only change code below this line
+  for(let i = 0; i < contacts.length; i++){
+    if(contacts[i].firstName === name){
+      if(contacts[i].hasOwnProperty(prop)){
+        return contacts[i][prop];
+      }
+      else{
+        return "No such property";
+      }
+    }
+  }
+  return "No such contact";
+  // Only change code above this line
+}
 
-console.log(secondToLastLetterOfLastName)
+lookUpProfile("Akira", "likes");
 ```
 
+4. **[Write Reusable JavaScript with Functions](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/write-reusable-javascript-with-functions)**
+
+   ```javascript
+    function reusableFunction (){
+      console.log("Hi World");
+    }
+
+    reusableFunction()
+   ```
+
+5. **[Understanding Undefined Value returned from a Function](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/understanding-undefined-value-returned-from-a-function)**
+
+```javascript
+// Setup
+let sum = 0;
+
+function addThree() {
+  sum = sum + 3;
+}
+
+// Only change code below this line
+
+function addFive(){
+  sum = sum + 5;
+}
+
+// Only change code above this line
+
+addThree();
+addFive();
+```
+
+6. **[Return a Value from a Function with Return](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/return-a-value-from-a-function-with-return)**
+
+```javascript
+function timesFive(x){
+  return x *= 5;
+}
+
+timesFive(3);
+```
