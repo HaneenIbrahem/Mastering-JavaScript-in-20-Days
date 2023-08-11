@@ -52,6 +52,7 @@ typeof 42 = Number
 ##
 
 **Operations**
+
 Arithmatic operations:
 (+, -, *, /)
 
@@ -61,18 +62,25 @@ Comparison operations:
 Logical operations:
 (&&, ||, !)
 
-Strict             loosy goosy
+| Strict |             | loosy goosy |
 
-===                  ==            => equals
+| === |                  | == |            | => equals |
 
-!==                  !=            => does not equal
+| !== |                  | != |            | => does not equal |
 
-1 === 1       => :tick:
+
+1 === 1       => 
+
 1 == 1        =>
+
 "1" === "1"   =>
+
 "1" == "1"    =>
+
 1 === "1"     =>
+
 1 == "1"      =>
+
 ##
 Editing the DOM with JS:
 - textContent: eg: document.getElementById("player1")
