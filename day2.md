@@ -118,7 +118,7 @@ Output: true
 Explanation: The first ! operator negates the truthiness of the value, and the second ! operator negates it again
 
 
-2. **[QUESTION #2:](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/concatenating-strings-with-the-plus-equals-operator](https://github.com/orjwan-alrajaby/gsg-QA-Nablus-training-2023/blob/main/learning-sprint-1/week1%20-%20javascript-from-first-steps-to-professional/day%202/tasks.md#question-2))**
+2. **[QUESTION #2:](https://github.com/orjwan-alrajaby/gsg-QA-Nablus-training-2023/blob/main/learning-sprint-1/week1%20-%20javascript-from-first-steps-to-professional/day%202/tasks.md#question-2))**
    
 **Solution:**
 
