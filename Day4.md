@@ -45,6 +45,7 @@ const add = (x, y) => x+y
 function add(x, y){
   return x+y;
 }
+```
 
 ## Exercise 2: declare the following functions using arrow functions:
 1. divide: given 2 numbers, return the first divided by the second 
