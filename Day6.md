@@ -6,9 +6,9 @@ This README file summarizes the JavaScript lesson on Data Fetching & Promises, D
 fetch(): lets us use JS to load data from APIs
 
 Promises: can be in 3 possible states:
-- 
--
--
+- pending: still waiting for the value, hang tight.
+- fulfilled: (aka: "resolved"): finally got the valye, all done.
+- rejected: sorry couldn't get the value, all done. it likes time for Promises to resolve, so they are "asynchronous"
 
 await : let us tell JS to stop and wait for an asynchronous operation tp finish
 
