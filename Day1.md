@@ -37,7 +37,7 @@ MDN: Mozilla Developer Network.
 3. The number of the squares in the board: 
      ```javascript
    document.querySelectorAll(".square").length;
-5. The text "A game you know":
+4. The text "A game you know":
     ```javascript
    document.querySelector("h2").textContent;
 ##
@@ -54,7 +54,7 @@ Editing the DOM with JS:
    ```javascript
    document.getElementById("p1-sympol").textContent = "O"
    document.getElementById("p2-sympol").textContent = "X"
-4. Change subtitle to "A game you know and love":
+3. Change subtitle to "A game you know and love":
    ```javascript
    document.querySelector("header h2").textContent = "A game you know and love"
    document.getElementByTagName("h2").append = "A game you know and love"
