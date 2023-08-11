@@ -65,15 +65,15 @@ function add(x, y){
    trueButton.addEventListener("click", (event) => {
       textButton.textContent = trueButton.textContent.toUpperCase();
    });
-  
+   ```
 2. change the h1 text to "hovering" when the mouse moves into the element
    ```javascript
    let h1 = document.getElementByTagName("h1");
    h1 = h1[0];
    h1.addEventListener("mouseover",() => {
-    h1.textContent = "hovering";
-});
-```
+     h1.textContent = "hovering";
+   });
+   ```
 ## DELIEVERABLES:
 
 1. **[Global Scope and Functions](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/global-scope-and-functions)**
