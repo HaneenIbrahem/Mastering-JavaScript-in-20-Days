@@ -118,25 +118,30 @@ Output: true
 Explanation: The first ! operator negates the truthiness of the value, and the second ! operator negates it again
 
 
-2. **[Concatenating Strings with the Plus Equals Operator](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/concatenating-strings-with-the-plus-equals-operator)**
+2. **[QUESTION #2:]([https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/concatenating-strings-with-the-plus-equals-operator](https://github.com/orjwan-alrajaby/gsg-QA-Nablus-training-2023/blob/main/learning-sprint-1/week1%20-%20javascript-from-first-steps-to-professional/day%202/tasks.md#question-2))**
    
 **Solution:**
- ```javascript
-let myStr = "This is the first sentence. ";
-myStr += "This is the second sentence.";
 
-console.log(myStr);
-```
+console.log(4 + 5 * "7");
 
-3. **[Use Bracket Notation to Find the Nth-to-Last Character in a String](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/use-bracket-notation-to-find-the-nth-to-last-character-in-a-string)**
+The multiplication operation `5 * "7"` is evaluated first, it attempts to convert the string to a number and performs the multiplication, 5*7 = 35. The addition operation 4 + 35 is performed. Both operands are numbers (4 and 35), so the + operator performs addition. The result of 4 + 35 is 35.
+
+Final Output:
+The output of the console.log statement will be 39.
+
+
+3. **[QUESTION #3:]([https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/use-bracket-notation-to-find-the-nth-to-last-character-in-a-string](https://github.com/orjwan-alrajaby/gsg-QA-Nablus-training-2023/blob/main/learning-sprint-1/week1%20-%20javascript-from-first-steps-to-professional/day%202/tasks.md#question-3)https://github.com/orjwan-alrajaby/gsg-QA-Nablus-training-2023/blob/main/learning-sprint-1/week1%20-%20javascript-from-first-steps-to-professional/day%202/tasks.md#question-3)**
    
 **Solution:**
- ```javascript
-// Setup
-const lastName = "Lovelace";
 
-// Only change code below this line
-const secondToLastLetterOfLastName = lastName[lastName.length - 2]; // Change this line
+let result = 5 + 2 * 3 - 1;
 
-console.log(secondToLastLetterOfLastName)
-```
+2 * 3 is evaluated first. In JavaScript, the * operator has higher precedence than the + and - operators. 
+so the result is 6.
+then the expression becomes 5 + 6, which is straightforward. The result of 5 + 6 is 11.
+Finally, the expression becomes 11 - 1, which is also straightforward. The result of 11 - 1 is 10.
+
+4. **[QUESTION #4:]([[https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/use-bracket-notation-to-find-the-nth-to-last-character-in-a-string](https://github.com/orjwan-alrajaby/gsg-QA-Nablus-training-2023/blob/main/learning-sprint-1/week1%20-%20javascript-from-first-steps-to-professional/day%202/tasks.md#question-3)https://github.com/orjwan-alrajaby/gsg-QA-Nablus-training-2023/blob/main/learning-sprint-1/week1%20-%20javascript-from-first-steps-to-professional/day%202/tasks.md#question-3](https://github.com/orjwan-alrajaby/gsg-QA-Nablus-training-2023/blob/main/learning-sprint-1/week1%20-%20javascript-from-first-steps-to-professional/day%202/tasks.md#question-4)https://github.com/orjwan-alrajaby/gsg-QA-Nablus-training-2023/blob/main/learning-sprint-1/week1%20-%20javascript-from-first-steps-to-professional/day%202/tasks.md#question-4)**
+   
+**Solution:**
+
