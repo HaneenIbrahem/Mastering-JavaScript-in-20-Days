@@ -62,11 +62,9 @@ Comparison operations:
 Logical operations:
 (&&, ||, !)
 
-| Strict | loosy goosy | ________________ |
-
-| === | == | => equals |
-
-| !== | != | => does not equal |
+| Strict | loosy goosy | _________________ |
+| ===    | ==          | => equals         |
+| !==    | !=          | => does not equal |
 
 
 1 === 1       => 
