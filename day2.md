@@ -145,3 +145,29 @@ Finally, the expression becomes 11 - 1, which is also straightforward. The resul
    
 **Solution:**
 
+- console.log(x == y);
+
+Output: true
+
+Explanation: The == operator converts one or both operands to the same type before making the comparison. Since the number 10 and the string '10' have the same value, the comparison x == y evaluates to true.
+
+- console.log(x === y);
+  
+Output: false
+
+Explanation: === Unlike ==, it does not perform type coercion. It checks both value and type, meaning both operands must be of the same type and have the same value for the comparison to evaluate to true
+In this case, x is a number (10) and y is a string ('10'), and their types are different. so x === y evaluates to false.
+
+4. **[QUESTION #5:](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/use-bracket-notation-to-find-the-nth-to-last-character-in-a-string](https://github.com/orjwan-alrajaby/gsg-QA-Nablus-training-2023/blob/main/learning-sprint-1/week1%20-%20javascript-from-first-steps-to-professional/day%202/tasks.md#question-3)https://github.com/orjwan-alrajaby/gsg-QA-Nablus-training-2023/blob/main/learning-sprint-1/week1%20-%20javascript-from-first-steps-to-professional/day%202/tasks.md#question-3](https://github.com/orjwan-alrajaby/gsg-QA-Nablus-training-2023/blob/main/learning-sprint-1/week1%20-%20javascript-from-first-steps-to-professional/day%202/tasks.md#question-4)https://github.com/orjwan-alrajaby/gsg-QA-Nablus-training-2023/blob/main/learning-sprint-1/week1%20-%20javascript-from-first-steps-to-professional/day%202/tasks.md#question-4](https://github.com/orjwan-alrajaby/gsg-QA-Nablus-training-2023/blob/main/learning-sprint-1/week1%20-%20javascript-from-first-steps-to-professional/day%202/tasks.md#question-5)https://github.com/orjwan-alrajaby/gsg-QA-Nablus-training-2023/blob/main/learning-sprint-1/week1%20-%20javascript-from-first-steps-to-professional/day%202/tasks.md#question-5)**
+
+- num > 10: in this case it is 15 > 10 which is true
+- isPositive: This is a boolean variable with the value true, so it directly evaluates to true.
+- (num > 10 && isPositive): the logical AND (&&) operator returns true.
+- num < 0: 15" is not less than 0, so this part of the expression evaluates to false.
+- (num > 10 && isPositive) || num < 0: one side of the OR operator is true (num > 10 && isPositive) and the other side is false (num < 0), the OR operator returns true.
+- result = (num > 10 && isPositive) || num < 0: Finally, the result of the entire expression is true.
+
+Final Output:
+
+The value of the variable result is true.
+
