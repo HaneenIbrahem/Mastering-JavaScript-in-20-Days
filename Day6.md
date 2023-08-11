@@ -202,7 +202,6 @@ async function fetchCharacterData() {
   });
 ```
 
-
-![Result](imgs/Screenshot 2023-08-11 235108.png)
-
 ![Result](imgs/Screenshot%202023-08-11%20235108.png)
+
+![Result](imgs/Screenshot%2023-08-11%235156.png)
