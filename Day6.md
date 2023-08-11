@@ -203,4 +203,4 @@ async function fetchCharacterData() {
 ```
 
 
-![Result](Screenshot 2023-08-11 235108.png)
+![Result](C:\Users\hanee\Downloads\Screenshot 2023-08-11 235108.png)
