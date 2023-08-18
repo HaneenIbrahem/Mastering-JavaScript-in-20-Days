@@ -1,4 +1,4 @@
-# Day 1: JavaScript: The Hard Parts, v2
+# Day 8: JavaScript: The Hard Parts, v2
 This README file summarizes the JavaScript lesson on Closure and Asynchronous JavaScript.
 
 ## Lesson Summary
