@@ -32,7 +32,7 @@ _______________
 **Why do we have functions?**
 - make it reusable.
 
-** DRY (Don't Repeat Yourself)**
+**DRY (Don't Repeat Yourself)**
 
 ```JavaScript
 function tenSquared() {
