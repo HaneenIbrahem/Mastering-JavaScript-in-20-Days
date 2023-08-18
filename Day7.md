@@ -109,4 +109,67 @@ const sum = numbers.reduce(function(accumulator, currentValue){
 ```
 
 ## DELIEVERABLES:
-1. (Use Higher-Order Functions map, filter, or reduce to Solve a Complex Problem)[]
+1. [Use Higher-Order Functions map, filter, or reduce to Solve a Complex Problem](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/functional-programming/use-higher-order-functions-map-filter-or-reduce-to-solve-a-complex-problem)
+
+```JavaScript
+const squareList = arr => {
+  // Only change code below this line 
+  return arr.reduce(function(result, num){
+    if(num > 0 && Number.isInteger(num)){
+      result.push(num * num);
+    }
+    return result;
+  }, []);
+  // Only change code above this line
+};
+
+const squaredIntegers = squareList([-3, 4.8, 5, 3, -3.2]);
+console.log(squaredIntegers);
+```
+
+2. [Apply Functional Programming to Convert Strings to URL Slugs](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/functional-programming/apply-functional-programming-to-convert-strings-to-url-slugs)
+
+```JavaScript
+// Only change code below this line
+function urlSlug(title) {
+  return title.toLowerCase().split(" ").filter(function(text){
+    return text !=="";
+  }).join("-")
+}
+// Only change code above this line
+urlSlug("A Mind Needs Books Like A Sword Needs A Whetstone");
+```
+3. [Exercises for functions and callbacks](https://github.com/orjwan-alrajaby/gsg-QA-Nablus-training-2023/blob/main/learning-sprint-1/week2%20-%20javaScript-the-hard-parts-v2/day%201/tasks.md)
+
+Quistion 1: 
+```JavaScript
+function mapAsync(array, callback) {
+  const mappedPromises = array.map(element => {
+    return new Promise(resolve => {
+      // Perform the asynchronous mapping using the callback
+      callback(element).then(mappedValue => {
+        resolve(mappedValue);
+      });
+    });
+  });
+
+  return Promise.all(mappedPromises);
+}
+```
+
+
+
+
+
+function mapAsync(array, callback) {
+  const mappedPromises = array.map(element => {
+    return new Promise(resolve => {
+      // Perform the asynchronous mapping using the callback
+      callback(element).then(mappedValue => {
+        resolve(mappedValue);
+      });
+    });
+  });
+
+  return Promise.all(mappedPromises);
+}
