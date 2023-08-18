@@ -136,3 +136,49 @@ function calculateAverage(nums) {
   const avgFunction = calculateAverage([5, 10, 15, 20]);
   console.log(avgFunction()); // Outputs: 12.5
 ```
+[Question 3](https://github.com/orjwan-alrajaby/gsg-QA-Nablus-training-2023/blob/main/learning-sprint-1/week2%20-%20javaScript-the-hard-parts-v2/day%202/tasks.md#question-3)
+```JavaScript
+function powerOf(base) {
+    // Define and return the inner function (closure)
+    function power(exp) {
+      return Math.pow(base, exp);
+    };
+    return power;
+  }
+  
+  // Usage example:
+  const powerOf2 = powerOf(2);
+  console.log(powerOf2(3)); // Outputs: 8 (2^3)
+  console.log(powerOf2(4)); // Outputs: 16 (2^4)
+```
+[Question 4](https://github.com/orjwan-alrajaby/gsg-QA-Nablus-training-2023/blob/main/learning-sprint-1/week2%20-%20javaScript-the-hard-parts-v2/day%202/tasks.md#question-4)
+```JavaScript
+function compose(...functions) {
+    return function(input) {
+      let result = input;
+      for (let i = functions.length - 1; i >= 0; i--) {
+        result = functions[i](result);
+      }
+      return result;
+    };
+  }
+// Example functions
+function addTwo(x) {
+    return x + 2;
+  }
+  
+  function multiplyByThree(x) {
+    return x * 3;
+  }
+  
+  function subtractTen(x) {
+    return x - 10;
+  }
+  
+  // Create a composed function
+  const composedFunction = compose(subtractTen, multiplyByThree, addTwo);
+  
+  // Usage example:
+  const result = composedFunction(5); // The composed function: subtractTen(multiplyByThree(addTwo(5)))
+  console.log(result); // Outputs: 21  
+```
