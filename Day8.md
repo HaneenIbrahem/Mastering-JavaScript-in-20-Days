@@ -98,3 +98,17 @@ We need to add some new components:
 **Event loop:** Allow to manage multiple tasks and events concurrently without blocking the execution of code.
 
 ## DELIEVERABLES:
+[Question 1:](https://github.com/orjwan-alrajaby/gsg-QA-Nablus-training-2023/blob/main/learning-sprint-1/week2%20-%20javaScript-the-hard-parts-v2/day%202/tasks.md#question-1)
+```JavaScript
+function createCounter(start) {
+  let counter = start;
+
+  function incrementCounter() {
+    counter++;
+  }
+
+  return incrementCounter;
+}
+
+const counter = createCounter(1);
+```
