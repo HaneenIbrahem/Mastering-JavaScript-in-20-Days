@@ -22,7 +22,7 @@ memory/variable environment/state) for that function's execution context.
 
 :tw-25b6: Closure created when a function defined inside other function and the inner function still have access to the variables & parameters of the outer function even the outer function has finished running.
 
-** functions can be returned from other functions in JS** like this example:
+**functions can be returned from other functions in JS** like this example:
 ```JavaScript
 function createFunction() {
  function multiplyBy2 (num){
