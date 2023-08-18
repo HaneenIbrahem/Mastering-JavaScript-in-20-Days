@@ -112,3 +112,27 @@ function createCounter(start) {
 
 const counter = createCounter(1);
 ```
+
+[Question 2](https://github.com/orjwan-alrajaby/gsg-QA-Nablus-training-2023/blob/main/learning-sprint-1/week2%20-%20javaScript-the-hard-parts-v2/day%202/tasks.md#question-2)
+```JavaScript
+function calculateAverage(nums) {
+    let sum = 0;
+    let count = 0;
+  
+    function avg() {
+        for (let num of nums) {
+            sum += num;
+            count++;
+          }
+        if (count === 0) {
+            return 0; // Return 0 for an empty array
+        }
+        let average =  sum / count; 
+        return average; 
+    };
+    return avg;
+  }
+  
+  const avgFunction = calculateAverage([5, 10, 15, 20]);
+  console.log(avgFunction()); // Outputs: 12.5
+```
