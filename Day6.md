@@ -1,4 +1,4 @@
-# Day 1: JavaScript: From First Steps to Professional
+# Day 6: JavaScript: From First Steps to Professional
 This README file summarizes the JavaScript lesson on Data Fetching & Promises, Destructuring Data, Async, Modules and Wrapping up.
 
 ## Lesson Summary
