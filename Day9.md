@@ -5,9 +5,9 @@ This README file summarizes the JavaScript lesson on Promises.
 
 Initiate background web browser work **and** Return a placeholder object (promise) immediately in JavaScript
 
-:tw-25b6: Promise object: it is just an object automatically created in JaveScript by fetch().
+▶️ Promise object: it is just an object automatically created in JaveScript by fetch().
 
-:tw-25b6: Any code we want to run on the returned data must also be saved on the promise object
+▶️ Any code we want to run on the returned data must also be saved on the promise object
 
 Added using **.then** method to the hidden property 'onFulfilment'.
 
