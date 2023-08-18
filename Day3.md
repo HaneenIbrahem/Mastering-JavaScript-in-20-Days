@@ -1,4 +1,4 @@
-# Day 1: JavaScript: From First Steps to Professional
+# Day 3: JavaScript: From First Steps to Professional
 This README file summarizes the JavaScript lesson on Arrays, Objects and Quiz project. 
 
 ## Lesson Summary
