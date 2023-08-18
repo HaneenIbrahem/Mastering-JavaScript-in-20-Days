@@ -16,7 +16,7 @@ difference between `__proto__` and `prototype`
 2. allowing an object to inherit properties and methods from its prototype.
 3. ` __proto__` is widely supported in browsers
 
-`prototype` :
+- `prototype` :
 1. is a property of constructor functions. When you create an object using a constructor function with the `new` keyword, the object's prototype is set to the constructor's prototype.
 2. used to define properties and methods that will be shared among instances created by the constructor function.
 
