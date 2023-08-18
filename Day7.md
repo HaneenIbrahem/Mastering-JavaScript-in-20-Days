@@ -141,7 +141,7 @@ urlSlug("A Mind Needs Books Like A Sword Needs A Whetstone");
 ```
 3. [Exercises for functions and callbacks](https://github.com/orjwan-alrajaby/gsg-QA-Nablus-training-2023/blob/main/learning-sprint-1/week2%20-%20javaScript-the-hard-parts-v2/day%201/tasks.md)
 
-Quistion 1: 
+Question 1: 
 ```JavaScript
 function mapAsync(array, callback) {
   const mappedPromises = array.map(element => {
@@ -156,20 +156,15 @@ function mapAsync(array, callback) {
   return Promise.all(mappedPromises);
 }
 ```
+Question 2:
+```JavaScript
+function sumRange(start, end) {
+    if (start === end) {
+      return start;
+    } else{
+        return start + sumRange(start + 1, end);
+    }
+  }
 
-
-
-
-
-function mapAsync(array, callback) {
-  const mappedPromises = array.map(element => {
-    return new Promise(resolve => {
-      // Perform the asynchronous mapping using the callback
-      callback(element).then(mappedValue => {
-        resolve(mappedValue);
-      });
-    });
-  });
-
-  return Promise.all(mappedPromises);
-}
+  console.log(sumRange(1, 1));
+```
