@@ -3,7 +3,7 @@ This README file summarizes the JavaScript lesson on Classes & Prototypes (OOP).
 
 ## Lesson Summary
 
-**Classes, Prototypes - Object Oriented JavaScript: **
+**Classes, Prototypes - Object Oriented JavaScript:**
 
 These concepts are at the core of JavaScript's OOP model. They provide ways to create and structure objects, encapsulate behavior, and establish relationships between objects through inheritance. Classes, prototypes, and inheritance are essential tools for building robust and maintainable JavaScript applications.
 
