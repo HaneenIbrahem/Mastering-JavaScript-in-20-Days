@@ -1,4 +1,4 @@
-# Day 1: JavaScript: The Hard Parts, v2
+# Day 7: JavaScript: The Hard Parts, v2
 This README file summarizes the JavaScript lesson on Introduction, Principles, Functions and Call backs.
 
 ## Lesson Summary
