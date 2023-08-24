@@ -1,5 +1,5 @@
 # Day 11: Deep JavaScript Foundations, v3
-This README file summarizes the JavaScript lesson on intoduction Types and Coercion.
+This README file summarizes the JavaScript lesson on intoduction Types Coercion and Philosophy of Coercion.
 
 ## Lesson Summary
 
