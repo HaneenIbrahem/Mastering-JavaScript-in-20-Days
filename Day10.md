@@ -1,4 +1,4 @@
-# Day 9: JavaScript: The Hard Parts, v2
+# Day 10: JavaScript: The Hard Parts, v2
 This README file summarizes the JavaScript lesson on Classes & Prototypes (OOP).
 
 ## Lesson Summary
