@@ -374,7 +374,7 @@ The variable x is accessible to the inner1 function due to lexical scoping. The 
 The variable x inside the inner2 function is a separate variable from the x variable in the parent scope of outer2. The concept of lexical scoping ensures that inner functions have access to variables in their parent scope, but if a variable with the same name is declared inside the inner function's scope, it will shadow (hide) the variable from the parent scope. In this case, the inner2 function prints the value of its own local x variable, which is 20.
 
 ------
-## DELIEVERABLES 1:
+## DELIEVERABLES 2:
 
 1. **[Question 1:](https://github.com/orjwan-alrajaby/gsg-QA-Nablus-training-2023/blob/main/learning-sprint-1/week3%20-%20deep-javascript-foundations-v3/day%204/tasks.md#question-1)**
    
