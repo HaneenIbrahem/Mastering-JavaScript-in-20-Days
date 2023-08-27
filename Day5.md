@@ -13,9 +13,9 @@ if statement lets us execute code under a certine condition.
       console.log("Last name is longer");
     elae console.log("First name is equal to last name")
     ```
-2. write a function isEmoty(array) that returns whether a given array is empty or not
+2. write a function isEmpty(array) that returns whether a given array is empty or not
     ```javascript 
-   function isEmoty(array){
+   function isEmpty(array){
       if(array.length === 0)
     return true;
       else return false
