@@ -327,8 +327,15 @@ const exampleNormalFunc3 = (string) => {
 
 
 const arrowHOF = (normalFunc) => {
-
-}
+    return(...args1) => {
+          return (repeatCount) => {
+            const result = normalFunc(...args1);
+            for (let i = 0; i < repeatCount; i++) {
+              console.log(result);
+            }
+          };
+        };
+  };
 
 const hofNormalFunc1 = arrowHOF(exampleNormalFunc1);
 const hofNormalFunc2 = arrowHOF(exampleNormalFunc2);
