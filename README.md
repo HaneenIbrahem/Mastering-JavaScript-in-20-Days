@@ -12,10 +12,11 @@ Welcome to the 20-Day Learning JavaScript Challenge! 🚀
 
 
 ## Code Challenges
-- Basic JavaScript 113/113.
-- ES6 29/29.
-- Object Oriented Programming 26/26
-- Functional Programming 12/24
+[free code camp](https://www.freecodecamp.org/HaneenIbrahem)
+- Basic JavaScript: 113/113.
+- ES6: 29/29.
+- Object Oriented Programming: 26/26
+- Functional Programming: 12/24
 
 ## DAily Learning Process 
 1. Each day, you will watch 90 minutes of the assigned courses listed above.
