@@ -147,7 +147,44 @@ Custom Types:
    
 **Solution:** 
  ```javascript
-
+const sayHelloWorld = new Promise((resolve, reject) => {
+    resolve("Hello world!");
+  });
+  
+  const checkBoolean = (boolean) => new Promise((resolve, reject) => {
+    if (boolean) {
+      resolve(boolean);
+    } else {
+      reject(`Input is false :(`);
+    }
+  });
+  
+  const returnObj = new Promise((resolve, reject) => {
+    resolve({
+      x: "meow",
+      y: 45,
+    });
+  });
+  
+  const promisesArray = [sayHelloWorld, checkBoolean(true), returnObj];
+  
+  const convertToObj = async (array) => {
+    const obj = {};
+  
+    for (let i = 0; i < array.length; i++) {
+      try {
+        const response = await array[i];
+        obj[`promise${i + 1}`] = response;
+      } catch (error) {
+        resultObj[`promise${i + 1}`] = error.toString();
+      }
+    }
+  
+    return obj;
+  };
+  
+  convertToObj(promisesArray).then(result => console.log(result));
+  
 ```
 
 2. **[Question 2:](https://github.com/orjwan-alrajaby/gsg-QA-Nablus-training-2023/blob/main/learning-sprint-1/week3%20-%20deep-javascript-foundations-v3/day%202/tasks.md#question-2)**
