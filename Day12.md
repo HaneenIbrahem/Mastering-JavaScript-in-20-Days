@@ -8,7 +8,7 @@ This README file summarizes the JavaScript lesson on Equality and Static Typing
 `==` (loose equality or Coercive Equality): performs type coercion before comparison.
 `===` (strict equality): compares values without type coercion and checks both values and data types.
 ```JavaScript
-onst num = 42;
+const num = 42;
 const str = "42";
 
 console.log(num == str); // true (loose equality)
