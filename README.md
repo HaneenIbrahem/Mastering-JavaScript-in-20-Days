@@ -12,7 +12,8 @@ Welcome to the 20-Day Learning JavaScript Challenge! 🚀
 
 
 ## Code Challenges
-[free code camp](https://www.freecodecamp.org/HaneenIbrahem)
+
+**[free code camp](https://www.freecodecamp.org/HaneenIbrahem)**
 - Basic JavaScript: 113/113.
 - ES6: 29/29.
 - Object Oriented Programming: 26/26
