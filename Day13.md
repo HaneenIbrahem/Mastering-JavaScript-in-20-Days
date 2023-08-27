@@ -327,22 +327,23 @@ const exampleNormalFunc3 = (string) => {
 
 
 const arrowHOF = (normalFunc) => {
-    return(...args1) => {
-          return (repeatCount) => {
+    return (...args1) => {
+        return (...args2) => {
             const result = normalFunc(...args1);
-            for (let i = 0; i < repeatCount; i++) {
-              console.log(result);
+            for (let i = 0; i < args2; i++) {
+                console.log(result);
             }
-          };
+            return result;
         };
-  };
+    };
+};
 
 const hofNormalFunc1 = arrowHOF(exampleNormalFunc1);
 const hofNormalFunc2 = arrowHOF(exampleNormalFunc2);
 const hofNormalFunc3 = arrowHOF(exampleNormalFunc3);
 
 console.log(hofNormalFunc1(3, 4, 5)(2)); // logs 60 twice
-console.log(hofNormalFunc2(20, 35))(4); // logs 700 four times
+console.log(hofNormalFunc2(20, 35)(4)); // logs 700 four times
 console.log(hofNormalFunc3("Meow")()); // logs "Meow Meow Meow!" once
 
 ```
