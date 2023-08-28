@@ -101,6 +101,7 @@ console.log(sum); // Outputs: 11111111101111111110111111111101111111100n
 6. Falsy Values
 
 **NaN and isNaN**
+
 NaN:  It is a special value in JavaScript that represents the result of an arithmetic operation that cannot be expressed as a valid number.
 ```JavaScreipt
 const result = 0 / 0; // NaN
